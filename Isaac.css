@@ -1,0 +1,7 @@
+h1{
+    filter: blur(100);
+}
+
+.pic{
+    filter:grayscale(100%)
+}
