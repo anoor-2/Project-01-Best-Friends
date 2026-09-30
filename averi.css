@@ -20,7 +20,7 @@ h1{
     color:#558c2c;
 }
 
-p{
+p, li, h3{
     font-family:silkscreen;
     color:#41701f;
 }
