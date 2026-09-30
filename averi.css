@@ -6,22 +6,23 @@ body{
 }
 
 @font-face {
-    font-family:pixela;
+    font-family:silkscreen;
     src: url(Silkscreen-Regular.ttf);
 }
 
 @font-face{
-    font-family:pixelb;
+    font-family:silkscreen;
     src:url()
 }
 
 h1{
-    font-family:pixela;
+    font-family:silkscreen;
     color:#558c2c;
 }
 
 p{
-    font-family:pixela;
+    font-family:silkscreen;
+    color:#41701f;
 }
 
 body{
