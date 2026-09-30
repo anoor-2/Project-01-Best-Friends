@@ -1,18 +1,37 @@
+
+
+
 body{
     background-color:#90A955;
 }
 
 @font-face {
-    font-family:abott;
-    src: url(Abocat-WppKO.ttf);
+    font-family:pixela;
+    src: url(Silkscreen-Regular.ttf);
+}
+
+@font-face{
+    font-family:pixelb;
+    src:url()
 }
 
 h1{
-    font-family: abott;
+    font-family:pixela;
     color:#558c2c;
+}
+
+p{
+    font-family:pixela;
 }
 
 body{
     margin:20px;
     padding: 20px;
+}
+
+img{
+    width:300px;
+    height:300px;
+    padding-top: 10px;
+    padding-right: 10px;
 }
