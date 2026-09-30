@@ -1,0 +1,18 @@
+body{
+    background-color:#90A955;
+}
+
+@font-face {
+    font-family:abott;
+    src: url(Abocat-WppKO.ttf);
+}
+
+h1{
+    font-family: abott;
+    color:#558c2c;
+}
+
+body{
+    margin:20px;
+    padding: 20px;
+}
