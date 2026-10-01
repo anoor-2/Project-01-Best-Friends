@@ -1,7 +1,14 @@
-h1{
-    filter: blur(100);
-}
-
 .pic{
-    filter:grayscale(100%)
+    filter:grayscale(100%);
+    width:20px;
+    height:500px;
+}
+html{
+    background-color: blueviolet;
+}
+a{
+    color:coral;
+}
+li{
+    display:block;
 }
