@@ -1,8 +1,25 @@
-.pic{
+.pic:active{
     filter:grayscale(100%);
     width:20px;
     height:500px;
+    position:relative;
+    margin:20px 20px 20px 20px;
+    padding:20px 20px 20px 20px;
+    border-width:20px;
+    border-style:solid;
+    opacity:67%;
+    animation:rotate 0.005s ease-in-out reverse infinite;
 }
+
+@keyframes rotate {
+    from{
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
 html{
     background-color: blueviolet;
 }
@@ -11,4 +28,16 @@ a{
 }
 li{
     display:block;
+}
+.list{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#item1{
+    font-size:small;
+}
+#item2{
+    font-size:medium;
+}
+#item3{
+    font-size:large;
 }
