@@ -1,6 +1,4 @@
 
-
-
 body{
     background-color:#90A955;
 }
@@ -12,17 +10,35 @@ body{
 
 @font-face{
     font-family:silkscreen;
-    src:url()
+    src:url(Silkscreen-Regular.ttf);
 }
 
-h1{
+h1,h2,h4,h6{
     font-family:silkscreen;
     color:#558c2c;
 }
 
-p, li, h3{
+h3, h5{
+    font-family: silkscreen;
+    color:#41701f;
+}
+
+h1{
+    font-size:50px;
+}
+
+p, li{
     font-family:silkscreen;
     color:#41701f;
+    font-size:19px;
+}
+
+h3{
+    font-size:20px;
+}
+
+h5{
+    font-size:19px;
 }
 
 body{
@@ -36,8 +52,35 @@ body{
     padding-top: 10px;
     padding-right: 10px;
     opacity: 100%;
+    border-style:dashed;
+    border-color: #5a6e09;
 }
 
 .paper{
     width:250px;
+}
+
+#cat{
+    filter:contrast(10%);
+    animation: evilAnimation 3s forwards;
+}
+
+#seal{
+    opacity:0.79;
+}
+
+table, th, td {
+  border:3px solid rgb(37, 94, 10);
+  font-family:silkscreen;
+  color:#266b0b;
+}
+
+@keyframes evilAnimation{
+    from {
+        filter: contrast(10%);
+    }
+    
+    to {
+        filter: contrast(150%);
+    }
 }
