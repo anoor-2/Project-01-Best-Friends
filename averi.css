@@ -62,11 +62,12 @@ body{
 
 #cat{
     filter:contrast(10%);
-    animation: evilAnimation 3s forwards;
+    animation: catAnimation 3s forwards;
 }
 
 #seal{
-    opacity:0.79;
+    opacity:0.50;
+    animation: sealAnimation 3s forwards;
 }
 
 table, th, td {
@@ -75,12 +76,22 @@ table, th, td {
   color:#266b0b;
 }
 
-@keyframes evilAnimation{
+@keyframes catAnimation{
     from {
         filter: contrast(10%);
     }
     
     to {
         filter: contrast(150%);
+    }
+}
+
+@keyframes sealAnimation{
+    from{
+        opacity:0.50;
+    }
+
+    to{
+        opacity:1;
     }
 }
